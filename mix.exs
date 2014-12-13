@@ -25,6 +25,8 @@ defmodule ElixirCassandra.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:cqerl, git: "https://github.com/matehat/cqerl.git"}
+    ]
   end
 end
